@@ -1,0 +1,361 @@
+/* Hero2 */
+.hero2 {
+    /* margin-top: 5%; */
+    background-image: url("/img/background kamar.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 380px;
+    position: relative;
+    z-index: 0;
+}
+
+.hero2::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 1;
+}
+
+.hero2-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #fff;
+    z-index: 2;
+    text-align: center;
+}
+
+.hero2-content h1 {
+    font-size: 52px;
+    color: #ffffff;
+}
+
+.hero2-content span {
+    color: orange;
+}
+
+/* Hero3 */
+.hero3 {
+    /* margin-top: 5%; */
+    background-image: url("/img/background kamar.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 380px;
+    position: relative;
+    z-index: 0;
+}
+
+.hero3::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 1;
+}
+
+.hero3-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #fff;
+    z-index: 2;
+    text-align: center;
+}
+
+.hero3-content h1 {
+    font-size: 52px;
+    color: #ffffff;
+}
+.hero3-content span {
+    color: orange;
+}
+
+/* Hero4 */
+.hero4 {
+    /* margin-top: 5%; */
+    background-image: url("/img/background kamar.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 380px;
+    position: relative;
+    z-index: 0;
+}
+
+.hero4::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 1;
+}
+
+.hero4-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #fff;
+    z-index: 2;
+    text-align: center;
+}
+
+.hero4-content h1 {
+    font-size: 52px;
+    color: #ffffff;
+}
+
+.hero4-content span {
+    color: orange;
+}
+
+/* Hero5 */
+.hero5 {
+    /* margin-top: 5%; */
+    background-image: url("/img/background kamar.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 380px;
+    position: relative;
+    z-index: 0;
+}
+
+.hero5::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 1;
+}
+
+.hero5-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #fff;
+    z-index: 2;
+    text-align: center;
+}
+
+.hero5-content h1 {
+    font-size: 52px;
+    color: #ffffff;
+}
+.hero5-content span {
+    color: orange;
+}
+
+/* Hero6 */
+.hero6 {
+    /* margin-top: 5%; */
+    background-image: url("/img/background kamar.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 380px;
+    position: relative;
+    z-index: 0;
+}
+
+.hero6::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 1;
+}
+
+.hero6-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #fff;
+    z-index: 2;
+    text-align: center;
+}
+
+.hero6-content h1 {
+    font-size: 52px;
+    color: #ffffff;
+}
+.hero6-content span {
+    color: orange;
+}
+
+
+
+
+/* photo-gallery */
+.container-gallery {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    width: 80%;
+    gap: 10px;
+    margin-top: 10px;
+    margin-left: 10%;
+    background-color: #eeeeee;
+    padding: 30px 20px 1px 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.gallery-left,
+.gallery-right {
+    display: flex;
+    flex-direction: column;
+}
+
+.gallery-item {
+    margin-bottom: 10px;
+}
+
+.gallery-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+
+/* Fasilitas */
+.container-fas-hotel {
+    text-align: center;
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 10px;
+    background-color: #eeeeee;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.container-fas-hotel h2 {
+    color: #333;
+    font-size: 28px;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+}
+
+.card {
+    width: 300px;
+    text-align: center;
+    margin: 20px;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+    box-shadow: 2px 2px 10px rgba(28, 27, 27, 0.1);
+    padding: 20px;
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.card i {
+    font-size: 48px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.card h3 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    margin: 10px 0;
+}
+
+.card p {
+    color: #666;
+    line-height: 1.5;
+}
+
+.container-Deskripsi{
+    text-align: center;
+    width: 80%;
+    margin-top: -10px;
+    margin-left: 10%;
+    background-color: #eeeeee;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 2px 4px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.container-Deskripsi h3 {
+    line-height: 50px;
+    font-size: 25px;
+    color: orange;
+}
+
+.fasilitas h3{
+    text-align: center;
+    color: orange;
+    font-size: 25px;
+    line-height: 100px;
+}
+
+.facility {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.facility .fas {
+    width: 300px;
+    text-align: left;
+    margin: 50px;
+}
+.facility .fas p {
+    text-align: left;
+    position: relative;
+    left: -20px;
+    line-height: 50px;
+    font-weight: 10px;
+}
+.facility .fas ul {
+    list-style-type:square;
+    line-height: 20px;
+}
+
+
+@media (max-width: 768px) {
+    .cards {
+        flex-direction: column; /* Mengubah tata letak menjadi vertikal */
+        align-items: center; /* Pusatkan kartu pada halaman kecil */
+    }
+
+    .card {
+        width: 100%; /* Kartu akan mengambil lebar penuh pada layar kecil */
+    }
+}

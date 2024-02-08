@@ -1,0 +1,60 @@
+.FormReservasi{
+    display: flex;
+    justify-content: center;
+}
+
+.feature1 {
+    background-color: white;
+    width: 600px;
+    text-align: left;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+    padding: 20px;
+}
+
+.feature1 h3 {
+    text-align: center;
+    background-color: #052D3B;
+    color: #E0C080;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.feature1 .form-outline-mb-4 {
+    margin-top: 15px;
+}
+
+.feature1 .form-outline-mb-4 .form-label {
+    font-size: 17px;
+    margin-bottom: 1%;
+}
+
+.feature1 .form-outline-mb-4 .form-control {
+    margin-top: -1%;
+    height: 35px;
+    background: transparent;
+    border-radius: 5px;
+    font-size: 1em;
+    padding: 0 35px 0 15px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.feature1 button {
+    display: block;
+    margin: 0 auto;
+    padding: 8px;
+    width: 150px;
+    background-color: #052D3B;
+    border-radius: 10px;
+    font-size: 17px;
+    font-weight: 700;
+    color: #E0C080;
+}
+
+.feature1 button:hover {
+    cursor: pointer;
+    background-color: #E0C080;
+    color: #052D3B;
+}

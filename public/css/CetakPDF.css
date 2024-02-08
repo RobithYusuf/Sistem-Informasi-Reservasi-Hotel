@@ -1,0 +1,186 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f8f9fa;
+    color: #333;
+}
+
+.date {
+    font-size: 0.15em;
+    margin-bottom: 5px;
+    font-style: italic;
+    font-size: small;
+}
+
+
+.page {
+    background: white;
+    max-width: 1000px;
+    margin: 20px auto;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.header .logo {
+    flex-basis: 15%;
+    text-align: center;
+}
+
+.header .logo img {
+    width: 350px;
+    height: 90px;
+}
+
+
+.header .title {
+    flex-grow: 2;
+    text-align: center;
+}
+
+.title {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.title .logo-title {
+    font-size: 23px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 5px;
+    margin-top: 30px;
+}
+
+.title .alamat{
+    font-size: 18px;
+    color: #666;
+    margin-bottom: 3px;
+}
+
+.title .kontak {
+    font-size: 18px;
+    color: #666;
+    margin-bottom: 2px;
+}
+
+.header h3 {
+    margin: 0;
+    font-size: 20px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+.header span {
+    display: block;
+    font-size: 14px;
+    line-height: 1.2;
+}
+
+hr {
+    border: none;
+    height: 3px;
+    background-image: linear-gradient(to right, #007bff, #0056b3, #007bff);
+    margin-top: 10px;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.info-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+.info-table th,
+.info-table td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: center;
+
+}
+
+.info-table th {
+    background-color: #007bff;
+    color: white;
+
+}
+
+.info-table td {
+    white-space: nowrap;
+
+    font-size: 9px;
+}
+
+
+.info-table tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.footer {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.footer p {
+    margin: 0;
+    font-size: 12px;
+    color: #6c757d;
+    /* Warna abu-abu */
+}
+
+.header .title {
+    flex-grow: 2;
+    margin-left: 40px;
+    text-align: left;
+}
+
+.header .title2 {
+    flex-grow: 2;
+    text-align: center;
+}
+
+.info-text1 {
+    font-size: 16px;
+    color: #333;
+    margin-bottom: -10px;
+    margin-top: -15px;
+}
+
+.info-text2 {
+    font-size: 16px;
+    color: #333;
+
+}
+
+.badge-custom {
+    padding: 6px 12px;
+    border-radius: 4px;
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+    display: inline-block;
+    width: 100px;
+    /* Sesuaikan dengan lebar yang diinginkan */
+}
+
+.bg-warning-custom {
+    background-color: #ffc107;
+    color: #000;
+}
+
+.bg-success-custom {
+    background-color: #28a745;
+    color: #fff;
+}
+
+.bg-danger-custom {
+    background-color: #dc3545;
+    color: #fff;
+}

@@ -1,0 +1,172 @@
+header {
+    background: #052d3b;
+}
+
+header .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; /* Menengahkan item ke vertikal tengah */
+    position: relative;
+    z-index: 10;
+}
+
+header .navbar ul {
+    display: flex;
+    list-style: none;
+    margin-left: auto;
+}
+
+header .navbar ul li {
+    position: relative;
+    float: left;
+    line-height: 30px;
+}
+
+header .navbar ul li a {
+    font-family: "calibri";
+    font-size: 17px;
+    font-weight: 550;
+    padding: 20px;
+    color: #e0c080;
+    display: block;
+}
+
+header .navbar ul li a:hover {
+    color: white;
+}
+
+.navbar ul li a.active {
+    background-color: transparent;
+    color: white;
+}
+
+.navbar ul li a.aktif:hover {
+    color: tomato;
+}
+
+.d-flex {
+    margin-top: 15px;
+}
+
+.btn_In,
+.btn_Out {
+    border-radius: 19px;
+    margin-top: 15px;
+    height: 30px;
+    background-color: transparent;
+    border: solid 1px #e0c080;
+    line-height: 1px;
+    color: #e0c080 !important;
+    text-decoration: none;
+    display: inline-block;
+    padding: 6px 12px;
+}
+
+.btn_In i,
+.btn_Out i {
+    margin-top: -10px;
+}
+
+.btn_In:hover,
+.btn_Out:hover {
+    color: white !important;
+}
+
+.menu-btn {
+    font-size: 28px;
+    color: white;
+    display: none;
+    cursor: pointer;
+}
+
+@media (max-width: 991px) {
+    header .navbar ul {
+        width: 100%;
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        box-sizing: border-box;
+        background: #052d3b;
+        z-index: 1;
+        top: 60px;
+        margin: 0;
+        padding: 0; /* Hapus padding yang tidak diinginkan */
+        left: 0;
+        right: 0;
+        margin-top: 30px;
+    }
+
+    header .navbar ul.show {
+        display: flex;
+    }
+
+    header .navbar ul li {
+        width: 100%;
+        text-align: center;
+        margin: 0;
+        border-bottom: 1px solid #e0c080; /* Menambahkan pemisah antar menu */
+    }
+
+    header .navbar ul li a {
+        padding: 15px 20px; /* Penyesuaian padding */
+        color: #e0c080; /* Warna font */
+    }
+
+    header .menu-btn {
+        display: block;
+    }
+
+    .btn_Out{
+        margin-bottom: 15px;
+    }
+    .btn_In{
+        margin-bottom: 15px;
+    }
+}
+
+/* floating button */
+.floating-button-container {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 1000;
+}
+
+.floating-button {
+    display: inline-block;
+    padding: 15px;
+    background-color: #25d366; /* Warna latar belakang WhatsApp */
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s ease;
+}
+
+.floating-button:hover {
+    background-color: #052d3b;
+    color: #e0c080; /* Warna latar belakang WhatsApp saat dihover */
+}
+
+.whatsapp-icon {
+    margin-right: 5px;
+}
+
+/* Media query untuk layar kecil */
+@media screen and (max-width: 600px) {
+    .floating-button > .txt {
+        display: none; /* Menyembunyikan teks pada layar kecil */
+    }
+
+    .floating-button {
+        padding: 5px; /* Mengurangi padding agar ikon tetap terlihat */
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .floating-button .whatsapp-icon {
+        margin-left: 5px; /* Menambahkan margin pada ikon */
+        font-size: 24px;
+    }
+}
